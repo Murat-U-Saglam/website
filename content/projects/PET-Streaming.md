@@ -25,3 +25,26 @@ Send the anonymise data to the end user.
 ### Usecase
 
 The aim is to be able to to take PII data, and provide an api to the dataowner to enable the utilisation of the data by any organisation that they deem fit, without having to worry about the misuse of PII and the end user can ensure the data integrity
+
+
+Developments to POC
+
+* Work with json, CSV or anything else
+* create an access control panel
+* Audit record of changes - Store locally back to dataowner
+* Have a key management system
+
+Second iteration
+
+* Create file based interface from storage
+* Create a different json implementation with stream data
+* This will require a message broker
+* Sync all changes to the audit recorder
+* Fuzzy search for PII identifiers in the key of the data
+
+At all stages
+
+* Data Platform End user should have anonymised data
+* psedo anonymised data
+* identifiable data
+* no PII
