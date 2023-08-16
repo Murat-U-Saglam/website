@@ -1,0 +1,22 @@
+body.light-mode ,
+body.light-mode  *{
+  color: $black;
+  background-color: $backgroundLighter;
+}
+
+.light-mode div.postListItem,
+.light-mode div.postListItem *{
+  color: $black;
+  background-color: $white;
+}
+
+
+.light-mode .headerWrapper,
+.light-mode .headerWrapper *,
+.light-mode .footer,
+.light-mode .footer *,
+.light-mode .postMetadata,
+.light-mode .postMetadata *{
+  background-color: $backgroundLight;
+
+}

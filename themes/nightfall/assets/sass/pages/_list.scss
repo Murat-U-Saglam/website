@@ -1,0 +1,12 @@
+@import "../utils/variables";
+
+.listHeader, .listContent {
+    text-align: left;
+}
+
+.tags {
+    font-family: Monaco, Courier, monospace;;;
+    vertical-align: center;
+    display: flex;
+    padding-top: 5px;
+}

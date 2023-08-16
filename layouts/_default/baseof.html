@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <title>{{ block "title" . }}
+        {{ .Site.Title }}
+        {{ end }}</title>
+
+    {{ partial "head.html" . }}
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        {{ partial "header.html" . }}
+
+        <div class="content">
+        
+            <main class="main">
+                {{ block "main" . }}
+                
+                {{ end }}
+                
+                {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+            </main>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
