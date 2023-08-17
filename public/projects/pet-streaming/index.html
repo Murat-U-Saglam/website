@@ -13,7 +13,7 @@ PET Streaming | Haci Muro
 
 
 <link rel="canonical" href="http://www.hacimuro.com/projects/pet-streaming/" >
-<link href="/sass/main.min.86ee7ee326adaca440aba58da99c0d913c5adffe2a3a0207258fc8ab4b9b5af8.css" rel="stylesheet">
+<link href="/sass/main.min.4058951c63d8253ace66b17ca80170482104f0e97c2d2052b994da1eac259976.css" rel="stylesheet">
 
 
 <script src="https://kit.fontawesome.com/586ce96d61.js" crossorigin="anonymous"></script>
@@ -242,19 +242,52 @@ PET Streaming | Haci Muro
             
             
                 <dt>reading time</dt>
-                <dd>0 minutes</dd>
+                <dd>1 minute</dd>
             
         </dl>
     </section>
     
     <div>
-        
+        <h2 id="what-is-pet-streaming">What is PET-Streaming</h2>
+<p>The aim of this project is to provide privacy enchanging technology. Current goals are</p>
+<h4 id="input">Input</h4>
+<p>Take a stream of cloud data</p>
+<h4 id="process">Process</h4>
+<p>Anonymise the data</p>
+<p>Check if the data within the stream and does appropiate validation - (Does not store) (Catalogue - is verifiied against a list of data assets and data controls)</p>
+<h4 id="output">Output</h4>
+<p>Send the anonymise data to the end user.</p>
+<h3 id="usecase">Usecase</h3>
+<p>The aim is to be able to to take PII data, and provide an api to the dataowner to enable the utilisation of the data by any organisation that they deem fit, without having to worry about the misuse of PII and the end user can ensure the data integrity</p>
+<p>Developments to POC</p>
+<ul>
+<li>Work with json, CSV or anything else</li>
+<li>create an access control panel</li>
+<li>Audit record of changes - Store locally back to dataowner</li>
+<li>Have a key management system</li>
+</ul>
+<p>Second iteration</p>
+<ul>
+<li>Create file based interface from storage</li>
+<li>Create a different json implementation with stream data</li>
+<li>This will require a message broker</li>
+<li>Sync all changes to the audit recorder</li>
+<li>Fuzzy search for PII identifiers in the key of the data</li>
+</ul>
+<p>At all stages</p>
+<ul>
+<li>Data Platform End user should have anonymised data</li>
+<li>psedo anonymised data</li>
+<li>identifiable data</li>
+<li>no PII</li>
+</ul>
+
     </div>
 </div>
 
                 
                 <div class="nextprev">
-<a href="/blog/pet-streaming/"><div id="prevart" style="margin:0 auto;max-width:1000px;float: left;text-align: left;max-width: 33%;">Previous:<br>PET Streaming</div></a>
+<a href="/about/"><div id="prevart" style="margin:0 auto;max-width:1000px;float: left;text-align: left;max-width: 33%;">Previous:<br>About</div></a>
 </div>
 </main>
         </div>
