@@ -5,11 +5,6 @@ local_directory = os.getcwd()
 local_directory = os.path.join(local_directory, "public")
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "env.json"
-
-print(local_directory)
-
-
-
 # Initialize a client
 client = storage.Client()
 
