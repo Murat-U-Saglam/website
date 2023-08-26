@@ -1,25 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FL on Haci&#39;s Debugging Adventures</title>
-    <link>http://www.hacimuro.com/tags/fl/</link>
-    <description>Recent content in FL on Haci&#39;s Debugging Adventures</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Aug 2023 10:45:36 +0100</lastBuildDate><atom:link href="http://www.hacimuro.com/tags/fl/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PET Streaming</title>
-      <link>http://www.hacimuro.com/projects/pet-streaming/</link>
-      <pubDate>Tue, 15 Aug 2023 10:45:36 +0100</pubDate>
-      
-      <guid>http://www.hacimuro.com/projects/pet-streaming/</guid>
-      <description>What is PET-Streaming The aim of this project is to provide privacy enchanging technology. Current goals are
-Input Take a stream of cloud data
-Process Anonymise the data
-Check if the data within the stream and does appropiate validation - (Does not store) (Catalogue - is verifiied against a list of data assets and data controls)
-Output Send the anonymise data to the end user.
-Usecase The aim is to be able to to take PII data, and provide an api to the dataowner to enable the utilisation of the data by any organisation that they deem fit, without having to worry about the misuse of PII and the end user can ensure the data integrity</description>
-    </item>
+	<title>Haci&#39;s Debugging Adventures</title>
+	<link>http://www.hacimuro.com/tags/fl/</link>
+	<description>Recent content in FL on Haci&#39;s Debugging Adventures</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-gb</language>
+	<lastBuildDate>Tue, 15 Aug 2023 10:45:36 +0100</lastBuildDate>
     
-  </channel>
+        <atom:link href="http://www.hacimuro.com/tags/fl/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Why Cyber</title>
+		<link>http://www.hacimuro.com/blog/why-cyber/</link>
+		<pubDate>Sat, 26 Aug 2023 17:35:00 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/why-cyber/</guid>
+		<description></description>
+	</item>
+	
+	<item>
+		<title>PET Streaming</title>
+		<link>http://www.hacimuro.com/projects/pet-streaming/</link>
+		<pubDate>Tue, 15 Aug 2023 10:45:36 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/projects/pet-streaming/</guid>
+		<description>&lt;h2 id=&#34;what-is-pet-streaming&#34;&gt;What is PET-Streaming&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to provide privacy enchanging technology. Current goals are&lt;/p&gt;
+&lt;h4 id=&#34;input&#34;&gt;Input&lt;/h4&gt;
+&lt;p&gt;Take a stream of cloud data&lt;/p&gt;
+&lt;h4 id=&#34;process&#34;&gt;Process&lt;/h4&gt;
+&lt;p&gt;Anonymise the data&lt;/p&gt;
+&lt;p&gt;Check if the data within the stream and does appropiate validation - (Does not store) (Catalogue - is verifiied against a list of data assets and data controls)&lt;/p&gt;
+&lt;h4 id=&#34;output&#34;&gt;Output&lt;/h4&gt;
+&lt;p&gt;Send the anonymise data to the end user.&lt;/p&gt;
+&lt;h3 id=&#34;usecase&#34;&gt;Usecase&lt;/h3&gt;
+&lt;p&gt;The aim is to be able to to take PII data, and provide an api to the dataowner to enable the utilisation of the data by any organisation that they deem fit, without having to worry about the misuse of PII and the end user can ensure the data integrity&lt;/p&gt;
+&lt;p&gt;Developments to POC&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with json, CSV or anything else&lt;/li&gt;
+&lt;li&gt;create an access control panel&lt;/li&gt;
+&lt;li&gt;Audit record of changes - Store locally back to dataowner&lt;/li&gt;
+&lt;li&gt;Have a key management system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Second iteration&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create file based interface from storage&lt;/li&gt;
+&lt;li&gt;Create a different json implementation with stream data&lt;/li&gt;
+&lt;li&gt;This will require a message broker&lt;/li&gt;
+&lt;li&gt;Sync all changes to the audit recorder&lt;/li&gt;
+&lt;li&gt;Fuzzy search for PII identifiers in the key of the data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At all stages&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Platform End user should have anonymised data&lt;/li&gt;
+&lt;li&gt;psedo anonymised data&lt;/li&gt;
+&lt;li&gt;identifiable data&lt;/li&gt;
+&lt;li&gt;no PII&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title></title>
+		<link>http://www.hacimuro.com/about/</link>
+		<pubDate>Mon, 14 Aug 2023 12:04:39 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/about/</guid>
+		<description>&lt;h2 id=&#34;eps10_hellofriendmov&#34;&gt;eps1.0_hellofriend.mov&lt;/h2&gt;
+&lt;h3 id=&#34;machine-learning-enthusiast-cyber-security-enjoyer-and-professional-automater&#34;&gt;Machine learning enthusiast, Cyber Security enjoyer and professional automater.&lt;/h3&gt;
+&lt;p&gt;As you might of guessed from the tittle, I am a fan of Mr Robot. Apart from being an amazing show, with oustanding visuals and audio, the plot is very interesting. The concept of a small talented group having the ability to bring down an &amp;ldquo;&amp;ldquo;establishment&amp;rdquo; has always appealed to me. I guess it is a bastardised version of the American Dream. Regardless it was mainly because of this show, and other stuff I pursued cyber security at University, it was within the first month I realised that it isn&amp;rsquo;t as trivial to replicate the plot.&lt;/p&gt;
+&lt;p&gt;Coming to the realisation that taking over a country and ruining it&amp;rsquo;s economy is too much effort. I was introduced to more cyber resillient systems, Peer to Peer networks, Distributed computation and more. This is where I was properly introduced into blockchain technologies. Understanding this system may be a lot more prominenent in the future made even more doubtful of viability of Mr Robot V2, regardless it&amp;rsquo;s a good TV show I recommend that you should definently watch it (you&amp;rsquo;ve already stumpled on this page).&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
 </rss>

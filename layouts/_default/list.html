@@ -7,16 +7,8 @@
 <div>
     <div class="listHeader">
         <h1>#{{ .Title }}</h1>
-
-    <div class="listContent">
-        <p>Take a look at the articles below if you want to see more about {{.Title}}</p>
-    </div>
-
-    <div>
         {{ range .Pages }}
-
         <a href="{{ .Permalink }}">
-            <!-- [html-validate-disable-next prefer-native-element] -->
             <div class="postListItem" role="listitem">
                 <div class="postHeader">
                     <span class="postTitle">{{ .Title }}</span>

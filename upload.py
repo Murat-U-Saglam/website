@@ -6,6 +6,10 @@ local_directory = os.path.join(local_directory, "public")
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "env.json"
 
+print(local_directory)
+
+
+
 # Initialize a client
 client = storage.Client()
 
@@ -17,6 +21,9 @@ blobs = bucket.list_blobs()
 white_list = ["public"]
 # Specify the local directory you want to upload
 
+#Rebuold the site
+os.system("rm -rf public")
+os.system("hugo")
 
 def delete_files_in_bucket():
     for blob in blobs:
