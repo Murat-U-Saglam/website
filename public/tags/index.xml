@@ -5,17 +5,168 @@
 	<description>Recent content in Tags on Haci&#39;s Debugging Adventures</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-gb</language>
-	<lastBuildDate>Tue, 15 Aug 2023 10:45:36 +0100</lastBuildDate>
+	<lastBuildDate>Mon, 27 Nov 2023 16:45:59 +0000</lastBuildDate>
     
         <atom:link href="http://www.hacimuro.com/tags/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>Why Cyber</title>
-		<link>http://www.hacimuro.com/blog/why-cyber/</link>
-		<pubDate>Sat, 26 Aug 2023 17:35:00 +0100</pubDate>
+		<title>EF</title>
+		<link>http://www.hacimuro.com/blog/ef/</link>
+		<pubDate>Mon, 27 Nov 2023 16:45:59 +0000</pubDate>
 		
-		<guid>http://www.hacimuro.com/blog/why-cyber/</guid>
+		<guid>http://www.hacimuro.com/blog/ef/</guid>
+		<description>&lt;h1 id=&#34;what-is-ef&#34;&gt;What is EF&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;[Entrepeneur First (EF)] (&lt;a href=&#34;https://www.joinef.com/)&#34;&gt;https://www.joinef.com/)&lt;/a&gt;,&lt;/em&gt; is a incubator/talent investor program that enables individuals to pursue entrepeneurship with reduced risk.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>What Is PATE</title>
+		<link>http://www.hacimuro.com/blog/what-is-pate/</link>
+		<pubDate>Fri, 15 Sep 2023 14:13:35 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/what-is-pate/</guid>
+		<description>&lt;h1 id=&#34;private-aggregation-of-teacher-ensembles&#34;&gt;Private Aggregation of Teacher Ensembles&lt;/h1&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Key Terms</title>
+		<link>http://www.hacimuro.com/blog/key-terms/</link>
+		<pubDate>Thu, 14 Sep 2023 18:05:06 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/key-terms/</guid>
+		<description>&lt;p&gt;Membership Inference: Identifying individuals via the given value of their data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Database Reconstruction&lt;/strong&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>What Is Differential Privacy</title>
+		<link>http://www.hacimuro.com/blog/what-is-differential-privacy/</link>
+		<pubDate>Thu, 14 Sep 2023 17:58:35 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/what-is-differential-privacy/</guid>
+		<description></description>
+	</item>
+	
+	<item>
+		<title>Attacking ML Models</title>
+		<link>http://www.hacimuro.com/blog/attacking-ml-models/</link>
+		<pubDate>Thu, 14 Sep 2023 16:40:39 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/attacking-ml-models/</guid>
+		<description>&lt;h1 id=&#34;adversarial-attack&#34;&gt;Adversarial Attack&lt;/h1&gt;
+&lt;h1 id=&#34;fair-washing&#34;&gt;Fair Washing&lt;/h1&gt;
+&lt;h1 id=&#34;poisoning-attack&#34;&gt;Poisoning Attack&lt;/h1&gt;
+&lt;h2 id=&#34;backdoor&#34;&gt;Backdoor&lt;/h2&gt;
+&lt;h1 id=&#34;membership-inference&#34;&gt;Membership Inference&lt;/h1&gt;
+&lt;h1 id=&#34;model-extraction-attack&#34;&gt;Model Extraction Attack&lt;/h1&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Understanding Federated Learning</title>
+		<link>http://www.hacimuro.com/blog/understanding-federated-learning/</link>
+		<pubDate>Thu, 14 Sep 2023 10:15:57 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/understanding-federated-learning/</guid>
+		<description>&lt;h1 id=&#34;what-is-federated-learning-fl&#34;&gt;What is Federated learning (FL)&lt;/h1&gt;
+&lt;p&gt;FL aims to train NN via utilising locally trained models and aggregating a global model. This can be done via a variety of networking paradigms most notably centralised and decentralised aggregation.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Setup and Initialisation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Establish a central server (if centralised) and multiple client devices or nodes.&lt;/li&gt;
+&lt;li&gt;Define the machine learning model architecture and hyperparameter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Partitioning:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each client retains control of its data locally, ensuring data privacy.&lt;/li&gt;
+&lt;li&gt;Clients perform initial preprocessing and data partitioning (e.g. splitting datasets into mini-batches).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Communication Setup:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Establish secure communication channels between clients and the central server (if centralised).&lt;/li&gt;
+&lt;li&gt;Ensure encryption and authentication mechanisms to protect data in transit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model Initiation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The central server initiates by sending an initial model (often pre-trained) to all clients.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;4.5. &lt;strong&gt;Model Initiation - Decentralised&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;local models train on local dataset rather than fine tuning data the initial global model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Model Training:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clients perform local model training on their respective datasets using the received model.&lt;/li&gt;
+&lt;li&gt;Training can include multiple epochs, gradient descent, and other optimisation techniques. (Having consistency across all client models saves headaches and within a decentralised approach it&amp;rsquo;s extremely difficult to aggregate different model architectures.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model Updates:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After local training, clients compute model updates (gradients) based on their data.&lt;/li&gt;
+&lt;li&gt;These updates are sent securely to the central server or selected peers(decentralised).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aggregation at the Central Server:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The central server aggregates the received model updates, typically using techniques like Federated Averaging.&lt;/li&gt;
+&lt;li&gt;It updates the global model with the aggregated gradients.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;7.5. &lt;strong&gt;Aggregation Mechanism - Decentralised training:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decentralised training requires a consensus mechanism which can aggregate local models in clusters&lt;/li&gt;
+&lt;li&gt;Use consensus algorithms (e.g. Federated Byzantine Agreement) to agree on a global model.&lt;/li&gt;
+&lt;li&gt;Ensure that all clients eventually converge to a similar model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Iterative Process:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Steps 5-7 are repeated iteratively for a predefined number of rounds or until convergence.&lt;/li&gt;
+&lt;li&gt;The model&amp;rsquo;s performance improves with each round as it learns from diverse data sources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model Evaluation and Deployment:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The final global model is evaluated for performance.&lt;/li&gt;
+&lt;li&gt;Once satisfactory, the model can be deployed for inference tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;sharing-biases&#34;&gt;Sharing biases&lt;/h3&gt;
+&lt;p&gt;You may of noticed there is no mentioning of sharing biases, this is due to the following reasons:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Distribution Variability&lt;/strong&gt;: In FL, clients have different datasets, which can vary significantly in terms of data distribution, characteristics, and biases. Sharing bias terms directly across clients could lead to models that do not work well to all data sources. Local biases allow models to adapt to the idiosyncrasies of each client&amp;rsquo;s data but doesn&amp;rsquo;t convey the same benefits to global models.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Privacy and Security&lt;/strong&gt;: Federated Learning is designed to maintain data privacy and security. Sharing bias terms could potentially reveal sensitive information about a client&amp;rsquo;s data (&lt;a href=&#34;http://www.hacimuro.com/blog/attacking-ml-models/&#34;&gt;Gradient-Based Inference Attack&lt;/a&gt;). By keeping biases local, it ensures that no client can access or infer another client&amp;rsquo;s bias information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Model Flexibility&lt;/strong&gt;: Local biases enable each client to fine-tune the model according to its specific data. This increases the flexibility of the model and its ability to capture client-specific patterns and nuances. Sharing biases would limit this adaptability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reduced Communication Overhead&lt;/strong&gt;: Sharing bias terms in addition to model weights would increase the communication overhead in Federated Learning, especially in scenarios with a large number of clients. Minimising the data exchanged between clients and the central server is a key efficiency concern.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>HE VS ZK VS FL for Machine Learning</title>
+		<link>http://www.hacimuro.com/blog/he-vs-zk-for-machine-learning/</link>
+		<pubDate>Sat, 26 Aug 2023 19:08:10 +0100</pubDate>
+		
+		<guid>http://www.hacimuro.com/blog/he-vs-zk-for-machine-learning/</guid>
 		<description></description>
 	</item>
 	
@@ -62,15 +213,17 @@
 	</item>
 	
 	<item>
-		<title></title>
+		<title>About</title>
 		<link>http://www.hacimuro.com/about/</link>
 		<pubDate>Mon, 14 Aug 2023 12:04:39 +0100</pubDate>
 		
 		<guid>http://www.hacimuro.com/about/</guid>
 		<description>&lt;h2 id=&#34;eps10_hellofriendmov&#34;&gt;eps1.0_hellofriend.mov&lt;/h2&gt;
 &lt;h3 id=&#34;machine-learning-enthusiast-cyber-security-enjoyer-and-professional-automater&#34;&gt;Machine learning enthusiast, Cyber Security enjoyer and professional automater.&lt;/h3&gt;
-&lt;p&gt;As you might of guessed from the tittle, I am a fan of Mr Robot. Apart from being an amazing show, with oustanding visuals and audio, the plot is very interesting. The concept of a small talented group having the ability to bring down an &amp;ldquo;&amp;ldquo;establishment&amp;rdquo; has always appealed to me. I guess it is a bastardised version of the American Dream. Regardless it was mainly because of this show, and other stuff I pursued cyber security at University, it was within the first month I realised that it isn&amp;rsquo;t as trivial to replicate the plot.&lt;/p&gt;
-&lt;p&gt;Coming to the realisation that taking over a country and ruining it&amp;rsquo;s economy is too much effort. I was introduced to more cyber resillient systems, Peer to Peer networks, Distributed computation and more. This is where I was properly introduced into blockchain technologies. Understanding this system may be a lot more prominenent in the future made even more doubtful of viability of Mr Robot V2, regardless it&amp;rsquo;s a good TV show I recommend that you should definently watch it (you&amp;rsquo;ve already stumpled on this page).&lt;/p&gt;
+&lt;p&gt;As you might of guessed from the tittle, I am a fan of Mr Robot. Apart from being an amazing show, with oustanding visuals and audio, the plot is very convoluted. The concept of a small talented group having the ability to bring down an &amp;ldquo;&amp;ldquo;establishment&amp;rdquo; has always appealed to me. I guess it is a bastardised version of the American Dream. Regardless it was mainly because of this show, and other stuff I pursued studying Cyber Security at University, it was within the first month I realised that it isn&amp;rsquo;t as trivial to replicate the plot.&lt;/p&gt;
+&lt;p&gt;Coming to the realisation that taking over a country and ruining it&amp;rsquo;s economy is too much effort. I was introduced to more cyber resillient systems, Peer to Peer networks, Distributed computation and more. This is where I was properly introduced into blockchain technologies. Understanding this system may be a lot more valuable in the future made even more doubtful of viability of Mr Robot V2, regardless it&amp;rsquo;s a good TV show I recommend that you should definently watch it (you&amp;rsquo;ve already stumpled on this page).&lt;/p&gt;
+&lt;p&gt;How I got into ML, well my interest in cyber mainly pertains to privacy, and ML is mainly requires a lot of data ,therefore I was interested in Privacy Preseving machine learning solutions PPML. The terabytes of high varianced data needs to come from somewhere. So my main interest within the ML space is Federated Learning (FL). Where you get the best of both worlds. The automation, felixibility and general value of ML without intruding on the privacy of the masses you need the data from. This should also encourage more people to actively share their data, since in theory the data should never leave thier device. So to learn more I jumped in the deep end, for my University research I made ML models using homomorphic encryption. ML or Homomorphic encryption was not convered within the course at all. Regardless I just wanted to learn about stuff that actually interested me, rather than getting a high grade by doing a generic disertation on networks.&lt;/p&gt;
+&lt;p&gt;In short, we&amp;rsquo;re losing to much accuracy when training models, creating models and then encrypting it (inference only) is boring because you already did the deed (using a bunch of peoples data). So I was interested in other avenues, like ZK which is okey (still dont feel comfortable with it, perhaps a blog on it in the future) Secure multi party computing.&lt;/p&gt;
 </description>
 	</item>
 	

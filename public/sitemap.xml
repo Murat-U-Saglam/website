@@ -3,16 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.hacimuro.com/blog/</loc>
-    <lastmod>2023-08-26T17:35:00+01:00</lastmod>
+    <lastmod>2023-11-27T16:45:59+00:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/ef/</loc>
+    <lastmod>2023-11-27T16:45:59+00:00</lastmod>
   </url><url>
     <loc>http://www.hacimuro.com/</loc>
-    <lastmod>2023-08-26T17:35:00+01:00</lastmod>
+    <lastmod>2023-11-27T16:45:59+00:00</lastmod>
   </url><url>
-    <loc>http://www.hacimuro.com/blog/why-cyber/</loc>
-    <lastmod>2023-08-26T17:35:00+01:00</lastmod>
+    <loc>http://www.hacimuro.com/tags/personal/</loc>
+    <lastmod>2023-11-27T16:45:59+00:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/</loc>
+    <lastmod>2023-11-27T16:45:59+00:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/what-is-pate/</loc>
+    <lastmod>2023-09-15T14:13:35+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/glossary/</loc>
+    <lastmod>2023-09-14T18:05:06+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/key-terms/</loc>
+    <lastmod>2023-09-14T18:05:06+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/what-is-differential-privacy/</loc>
+    <lastmod>2023-09-14T17:58:35+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/attacking-ml-models/</loc>
+    <lastmod>2023-09-14T16:40:39+01:00</lastmod>
   </url><url>
     <loc>http://www.hacimuro.com/tags/fl/</loc>
-    <lastmod>2023-08-15T10:45:36+01:00</lastmod>
+    <lastmod>2023-09-14T16:40:39+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/security/</loc>
+    <lastmod>2023-09-14T16:40:39+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/understanding-federated-learning/</loc>
+    <lastmod>2023-09-14T10:15:57+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/blockchain/</loc>
+    <lastmod>2023-08-26T19:08:10+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/he/</loc>
+    <lastmod>2023-08-26T19:08:10+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/blog/he-vs-zk-for-machine-learning/</loc>
+    <lastmod>2023-08-26T19:08:10+01:00</lastmod>
+  </url><url>
+    <loc>http://www.hacimuro.com/tags/zk/</loc>
+    <lastmod>2023-08-26T19:08:10+01:00</lastmod>
   </url><url>
     <loc>http://www.hacimuro.com/projects/pet-streaming/</loc>
     <lastmod>2023-08-15T10:45:36+01:00</lastmod>
@@ -20,13 +59,7 @@
     <loc>http://www.hacimuro.com/projects/</loc>
     <lastmod>2023-08-15T10:45:36+01:00</lastmod>
   </url><url>
-    <loc>http://www.hacimuro.com/tags/</loc>
-    <lastmod>2023-08-15T10:45:36+01:00</lastmod>
-  </url><url>
     <loc>http://www.hacimuro.com/about/</loc>
-    <lastmod>2023-08-14T12:04:39+01:00</lastmod>
-  </url><url>
-    <loc>http://www.hacimuro.com/tags/personal/</loc>
     <lastmod>2023-08-14T12:04:39+01:00</lastmod>
   </url><url>
     <loc>http://www.hacimuro.com/categories/</loc>
