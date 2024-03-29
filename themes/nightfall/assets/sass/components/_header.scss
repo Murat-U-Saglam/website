@@ -10,7 +10,6 @@
   width: $width;
 }
 
-
 .headerWrapper {
   overflow: auto;
   box-sizing: border-box;
@@ -36,7 +35,6 @@
   }
 }
 
-
 .light-mode {
   ul {
     color: black;
@@ -51,8 +49,6 @@
     }
   }
 }
-
-
 
 .terminal {
   color: $white;
@@ -136,6 +132,4 @@
   .hamb {
     display: block;
   }
-
 }
-

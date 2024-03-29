@@ -1,32 +1,31 @@
-body.light-mode ,
-body.light-mode  *{
+body.light-mode,
+body.light-mode * {
   color: $black;
   background-color: $backgroundLighter;
 }
 
 .light-mode div.postListItem,
-.light-mode div.postListItem *{
+.light-mode div.postListItem * {
   color: $black;
   background-color: $white;
 }
-
 
 .light-mode .headerWrapper,
 .light-mode .headerWrapper *,
 .light-mode .footer,
-.light-mode .footer *{
+.light-mode .footer * {
   background-color: $backgroundLight;
 }
 
 .light-mode .postMetadata,
-.light-mode .postMetadata *{
+.light-mode .postMetadata * {
   background-color: $white;
 }
 
-.light-mode .fa-square-rss{
+.light-mode .fa-square-rss {
   color: $black;
 }
 
-.fa-square-rss{
+.fa-square-rss {
   color: $white;
 }

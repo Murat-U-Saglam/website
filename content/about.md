@@ -3,6 +3,7 @@ title: "About"
 date: 2023-08-14T12:04:39+01:00
 tags: ["personal"]
 ---
+
 ## eps1.0_hellofriend.mov
 
 ### Machine learning enthusiast, Cyber Security enjoyer and professional automater.
