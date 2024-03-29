@@ -26,7 +26,7 @@ def delete_files_in_bucket():
         blob.delete()
         print(f"Deleted {blob.name} from {bucket_name}")
 
-
+# Can be optimised
 delete_files_in_bucket()
 for root, dirs, files in os.walk(top=local_directory):
     for file in files:
