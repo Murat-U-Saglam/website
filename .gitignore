@@ -1,3 +1,4 @@
 env.json
 .hugo_build.lock
 public
+venv/
