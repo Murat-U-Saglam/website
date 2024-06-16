@@ -16,7 +16,8 @@ The fortnight begins at [EthOxford](https://ethoxford.io/) I am currently workin
 
 A contingency associated with doing the builder analysis is to have pairing of discord accounts and github accounts. By pairing we can confidently state that these 2 accounts have the same owner. This was proven to be a challenge, since if this information was stored somewhere it will be in a highly unstructured area of the internet. From our analysis on the HomeDao Server we quickly realised that it was a rarity for people to link the github to their discord account. As you can see below.
 
-{{< figure src="/images/discord_with_github.png" width="100%" >}}
+
+![visualisation of accounts shared on discord](/images/discord_with_github.png)
 
 
 So from a personal level we need to address if this a technical or a business problem. Never the less we cant solve this fancy problems at a hackathon so instead my team started manually asking people for this information. This is when we realised that most members who are part of the hackathon haven't joined the discord/hasn't messaged within the server. This makes our analytics kind of useless since there is little to no value we can equate with no activity. However luckily my team was persistent and we were able to reduce our initial list of 70 github and discord usernames to 25 ish. Another perk of manual data analysis we realised is the cleaning we needed to do. Most people gave us their display names and it there was small information missing from these names too, such as a hidden full stop or Capital letters. Never the less me and my team worked through all of the problems and finally had a [working demo](https://www.youtube.com/watch?v=zvvhJghXfzw).

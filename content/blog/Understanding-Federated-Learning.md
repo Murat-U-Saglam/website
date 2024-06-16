@@ -68,7 +68,7 @@ You may of noticed there is no mentioning of sharing biases, this is due to the 
 
 **Data Distribution Variability**: In FL, clients have different datasets, which can vary significantly in terms of data distribution, characteristics, and biases. Sharing bias terms directly across clients could lead to models that do not work well to all data sources. Local biases allow models to adapt to the idiosyncrasies of each client's data but doesn't convey the same benefits to global models.
 
-**Privacy and Security**: Federated Learning is designed to maintain data privacy and security. Sharing bias terms could potentially reveal sensitive information about a client's data ([Gradient-Based Inference Attack]({{< ref "/blog/Attacking-ML-Models.md" >}})). By keeping biases local, it ensures that no client can access or infer another client's bias information.
+**Privacy and Security**: Federated Learning is designed to maintain data privacy and security. Sharing bias terms could potentially reveal sensitive information about a client's data. By keeping biases local, it ensures that no client can access or infer another client's bias information.
 
 **Model Flexibility**: Local biases enable each client to fine-tune the model according to its specific data. This increases the flexibility of the model and its ability to capture client-specific patterns and nuances. Sharing biases would limit this adaptability.
 
